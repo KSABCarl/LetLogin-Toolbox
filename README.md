@@ -9,6 +9,6 @@ To prepare this extension for distribution on your domain download this code fro
 
 After testing okay, submit the extension to https://chrome.google.com/webstore/devconsole/ . You need to pay a 5$ fee - dont ask me why. Create and submit the extension as "Private" and only visible to your own domain.
 
-Any credit should go to Søren Torp for making the LetLogin Toolbox extension. Icons in this fork have been changed so as not to violate any copyright issues. 
+Any credit should go to Søren Torp for making the LetLogin Toolbox extension. Icons in this fork have been changed so as not to violate any copyright. 
 
 Carl Holmberg (carl.holmberg@kunskapsgymnasiet.se)
