@@ -52,6 +52,6 @@ chrome.webRequest.onBeforeRequest.addListener(
   {
     // Theses are the urls that the cleanup shold be triggerd on. They also need to be
     // present in manifest.json
-    urls: ["*://www.youtube.com/*", "*://sts.kedschools.com/*"],
+    urls: ["*://www.youtube.com/*"],
   }
 );
