@@ -1,14 +1,13 @@
 {
-  "name": "LetLogin Toolbox Lite",
-  "version": "1.0a",
+  "name": "Youtube Cookie Cleanup",
+  "version": "0.1",
   "manifest_version": 2,
-  "description": "LetLogin Toolbox Lite",
+  "description": "Youtube Cookie Cleanup",
 
   "permissions": [
     "webRequest",
-    "cookies",
-    "*://www.youtube.com/",
-    "https://www.youtube.com/"
+    "cookies",  
+    "*://*.youtube.com/*"
   ],
   
   "background": {
@@ -17,8 +16,8 @@
   },
 
   "icons": {
-    "16": "Icons/LetLogin2-16.png",
-    "48": "Icons/LetLogin2-48.png",
-    "128": "Icons/LetLogin2-128.png"
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
   }
 }
