@@ -1,7 +1,7 @@
 {
   "name": "Youtube Cookie Cleanup",
   "version": "0.2",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "description": "Youtube Cookie Cleanup",
 
   "permissions": [
