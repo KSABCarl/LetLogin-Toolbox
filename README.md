@@ -1,5 +1,5 @@
 # Youtube Cookie Cleanup
-*This is based on Sœren Torps LetLogin Toolbox: https://github.com/AAK-BU-Digi/LetLogin-Toolbox but without direct links to shared photos.*
+*This is based on Søren Torps LetLogin Toolbox: https://github.com/AAK-BU-Digi/LetLogin-Toolbox but without direct links to shared photos.*
 
 The Youtube fix concerns the problem that appears when you disable Youtube for your GSfE domain - your users cannot login. Youtube sets cookies saving consent and settings, and these fail and have failed for quite some time now - so that's the reason for the fix :-)
 

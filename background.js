@@ -24,7 +24,6 @@ const clearCookies = (url) => {
   });
 };
 
-var requestMade = 0;
 
 // chrome.webRequest.onHeadersReceived.addListener(
 //   (site) => {
@@ -37,19 +36,15 @@ var requestMade = 0;
 //   }
 // );
 
-// This is LetLogins original method to handle cookie cleaning. I haven't actully checked
-// which cookies we need to remove and if the timer is actually neccessary...
+// This is LetLogins original method to handle cookie cleaning
 chrome.webRequest.onBeforeRequest.addListener(
   (site) => {
-    if (Date.now() - 20000 > requestMade) {
-      clearCookies(site.url);
-      requestMade = Date.now();
-    }
+    clearCookies(site.url);
   },
   {
     // Theses are the urls that the cleanup shold be triggerd on. They also need to be
     // present in manifest.json
-    urls: ["*://www.youtube.com/*"],
+    urls: ["https://consent.youtube.com/*"],
   }
 );
 
